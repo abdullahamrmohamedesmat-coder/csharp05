@@ -16,6 +16,10 @@
             Console.WriteLine(book.copiesInStock); // internal, and in the same project 
             #endregion
 
+            #region question 3
+            //3st answer
+            Console.WriteLine(book.title);
+            #endregion
         }
     }
 }
