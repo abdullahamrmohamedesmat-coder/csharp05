@@ -11,6 +11,11 @@
             //Console.WriteLine(book.password;);  it don't allow to print it because access modifer for password is private 
             #endregion
 
+            #region question 2
+            //2st answer
+            Console.WriteLine(book.copiesInStock); // internal, and in the same project 
+            #endregion
+
         }
     }
 }
