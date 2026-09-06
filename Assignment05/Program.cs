@@ -40,9 +40,15 @@
             non = (int)genreNonficton;
             Console.WriteLine(fic);
             Console.WriteLine(non);
-            Console.WriteLine(sci);  
+            Console.WriteLine(sci);
             #endregion
 
+            #region Question 6
+            //6st answer
+            int genreNumber = 1000;
+            Genre gen = (Genre)genreNumber;
+            Console.WriteLine(gen); 
+            #endregion
 
         }
     }
