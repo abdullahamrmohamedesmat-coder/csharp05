@@ -47,8 +47,15 @@
             //6st answer
             int genreNumber = 1000;
             Genre gen = (Genre)genreNumber;
-            Console.WriteLine(gen); 
+            Console.WriteLine(gen);
             #endregion
+
+            #region Question 7
+            //7st answer
+            Genre genre = Genre.Fiction;
+            Console.WriteLine(genre.ToString()); 
+            #endregion
+
 
         }
     }
