@@ -24,8 +24,26 @@
             #region Question 4
             //4st answer
             book.genre = Genre.Science;
-            Console.WriteLine(book.genre); 
+            Console.WriteLine(book.genre);
             #endregion
+
+            #region Question 5
+            //5st answer
+            int sci;
+            int fic;
+            int non;
+            Genre genreScience = Genre.Science;
+            Genre genreFinction = Genre.Fiction;
+            Genre genreNonficton = Genre.NonFiction;
+            sci = (int)genreScience;
+            fic = (int)genreFinction;
+            non = (int)genreNonficton;
+            Console.WriteLine(fic);
+            Console.WriteLine(non);
+            Console.WriteLine(sci);  
+            #endregion
+
+
         }
     }
 }
