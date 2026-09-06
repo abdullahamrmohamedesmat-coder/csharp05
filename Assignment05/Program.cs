@@ -20,6 +20,12 @@
             //3st answer
             Console.WriteLine(book.title);
             #endregion
+
+            #region Question 4
+            //4st answer
+            book.genre = Genre.Science;
+            Console.WriteLine(book.genre); 
+            #endregion
         }
     }
 }
