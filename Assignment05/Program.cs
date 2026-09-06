@@ -53,10 +53,18 @@
             #region Question 7
             //7st answer
             Genre genre = Genre.Fiction;
-            Console.WriteLine(genre.ToString()); 
+            Console.WriteLine(genre.ToString());
             #endregion
 
 
+            #region Question 8
+            //8st answer
+            string genreText = "Science";
+            Genre genre1;
+            genre1 = (Genre)Enum.Parse(typeof(Genre), genreText);
+            Console.WriteLine(genre1);
+
+            #endregion
         }
     }
 }
