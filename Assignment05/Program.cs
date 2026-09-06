@@ -65,6 +65,22 @@
             Console.WriteLine(genre1);
 
             #endregion
+
+            #region Question 9
+            //9st answer
+            string genreText02 = "Mystery";
+            Genre genre2;
+            Enum.TryParse<Genre>(genreText02, true, out genre2);
+            if (Enum.IsDefined(typeof(Genre), genre2))
+            {
+                Console.WriteLine(genre2);
+            }
+            else
+            {
+                Console.WriteLine("Unknown genre");
+            } 
+            #endregion
+
         }
     }
 }
